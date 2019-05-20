@@ -1,0 +1,58 @@
+body {
+  background: rgb(90, 138, 141);
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+}
+
+.productCard {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  height: 90px;
+  width: 80px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.Product-1 {
+  background: #4edeab;
+}
+
+.Product-2 {
+  background: #7268e6;
+}
+
+.Product-3 {
+  background: #39c9ff;
+}
+
+.Product-4 {
+  background: #36d380;
+}
+
+#userShopBasket {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  padding-top: 25px;
+  overflow: auto;
+  background: lightgoldenrodyellow;
+}
+
+.basketProductList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.productCount {
+  font-size: 2em;
+  line-height: 112px;
+}
